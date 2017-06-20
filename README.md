@@ -1,8 +1,13 @@
 # Practice
 
-1.	What is the most influential book or blog post you’ve read regarding web development?
-2.	Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?
-3.	Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list `(<ul>...</ul>)` of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?
+
+1.	*What is the most influential book or blog post you’ve read regarding web development?*
+
+
+2.	*Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?*
+
+
+3.	*Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list `(<ul>...</ul>)` of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?*
 ```python 
 def list(strings):
     u_list = "<ul>"
@@ -18,11 +23,16 @@ If the original list was provided by user input, we should consider the function
 
 
 
-4.	List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?
-5.	Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns the result in JSON. You should include a brief explanation of your code.
-from flask import Flask
+4.	*List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?*
+- **HTML Injection**: is the type of attack that allow the user the ability to input data to a vulnerable web page. this input point is not usually restricted or bleached the input to the pgae. the pgae use the input data as its received. usualy the hackers use a HTML code that allow them to steal users credentials, or it can allow the hacker to modify the page content. To prevent HTML injection we can Escape HTML. 
+- **SQL Injection**:is the type of attack that allow the hacker the access to the website database. Ones the hacker has the access to the database he/she can add, delete or alter the database in any shape or form, and steal the database info. SQL injection occurs when malicious SQL statements are inserted into form fields to try and gather info from the database. To minimize or prevent SQL attacks we can escaping all user supplied Input, enforce least privileges methods, and use white list input validation.   
+- **Cross-site request forgery (CSRF)**: it's also called *one click attack*, this type of attack occur when authenticated user trigger a state-changing requests unwanted by the user aiming to steal his info. there are many ways to prevent this type of attacks like  Synchronizer token pattern and the use of cookies "set cookie containing a random token that remains the same for the whole user session" . 
+
+
+5.	*Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns the result in JSON. You should include a brief explanation of your code.*
+
 ```python
- from flask import Flask
+from flask import Flask
 app = Flask(__name__)
 
 import json
@@ -53,5 +63,5 @@ if __name__ == '__main__':
 ```
 
 
-6.	If you were to start your full-stack developer position today, what would be your goals a year from now?
+6.	*If you were to start your full-stack developer position today, what would be your goals a year from now?*
 
