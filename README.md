@@ -13,15 +13,15 @@
 
 3.	*Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list `(<ul>...</ul>)` of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?*
 ```python 
-def list(strings):
-    u_list = "<ul>"
-    # Iteration over the strings items
-    for item in strings:
-        # append the list items in the strings
-        u_list += '<li>%s</li>' %s
-    u_list += '</ul>'
-    # returns unordered list
-    return u_list
+ def list(strings):
+     u_list = "<ul>"
+     # Iteration over the strings items
+     for item in strings:
+         # append the list items in the strings
+         u_list += '<li>%s</li>' %s
+     u_list += '</ul>'
+     # returns unordered list
+     return u_list
 ```
 If the original list was provided by user input, we should consider the function should check if the user has inputed the right form of data, list and has strings inside of it.
 
