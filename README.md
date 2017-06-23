@@ -2,6 +2,7 @@
 
 
 1.	*What is the most influential book or blog post you’ve read regarding web development?*
+- There are no specific blog or book that was really influential to me in process of perusing the web development. Several years ago, I was interested in learning HTML and how to create simple web pages from zero without the prebuild templets that allow the user to just add section and create a web page. As always with a simple google search I read some blogs and watch some videos about the use of HTML. One of these web pages was w3school.com which was very helpful.      
 
 
 2.	*Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?*
