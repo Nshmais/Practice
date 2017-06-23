@@ -69,4 +69,5 @@ if __name__ == '__main__':
 
 
 6.	*If you were to start your full-stack developer position today, what would be your goals a year from now?*
+- For the next year from now, I am looking forward to learn django, explore more and polishing my skills in javascript and Angular.js.
 
