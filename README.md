@@ -68,6 +68,19 @@ if __name__ == '__main__':
 ```
 
 
+or 
+```
+def _roll(num_dice, sides):
+    """roll die N times"""
+    return {'Roll %r' % str(i+1): random.randrange(sides) for i in range(num_dice)}
+
+@app.route('/roll')
+@app.route('/roll/<int:num_dice>/sides/<int:sides>')
+def roll(num_dice=2, sides=6):
+    return jsonify(_roll(num_dice, sides))
+```
+
+
 6.	*If you were to start your full-stack developer position today, what would be your goals a year from now?*
 - For the next year from now, I am looking forward to learn Django, explore more and polishing my skills in JavaScript  and Angular.js.
 
