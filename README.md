@@ -24,14 +24,14 @@
      # returns unordered list
      return u_list
 ```
-If the original list was provided by user input, we should consider the function should check if the user has inputed the right form of data, list and has strings inside of it.
+If the original list was provided by user input, we should consider the function should check if the user has inputted the right form of data, list and has strings inside of it.
 
 
 
 4.	*List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?*
-- **HTML Injection**: is the type of attack that allow the user the ability to input data to a vulnerable web page. this input point is not usually restricted or bleached the input to the pgae. the pgae use the input data as its received. usualy the hackers use a HTML code that allow them to steal users credentials, or it can allow the hacker to modify the page content. To prevent HTML injection we can Escape HTML. 
-- **SQL Injection**:is the type of attack that allow the hacker the access to the website database. Ones the hacker has the access to the database he/she can add, delete or alter the database in any shape or form, and steal the database info. SQL injection occurs when malicious SQL statements are inserted into form fields to try and gather info from the database. To minimize or prevent SQL attacks we can escaping all user supplied Input, enforce least privileges methods, and use white list input validation.   
-- **Cross-site request forgery (CSRF)**: it's also called *one click attack*, this type of attack occur when authenticated user trigger a state-changing requests unwanted by the user aiming to steal his info. there are many ways to prevent this type of attacks like  Synchronizer token pattern and the use of cookies "set cookie containing a random token that remains the same for the whole user session" . 
+- **HTML Injection**: is the type of attack that allow the user the ability to input data to a vulnerable web page. This input point is not usually restricted or bleached the input to the page. The page use the input data as it's received. Usually the hackers use a HTML code that allow them to steal users’ credentials, or it can allow the hacker to modify the page content. To prevent HTML injection we can Escape HTML. 
+- **SQL Injection**: is the type of attack that allow the hacker the access to the website database. Ones the hacker has the access to the database he/she can add, delete or alter the database in any shape or form, and steal the database info. SQL injection occurs when malicious SQL statements are inserted into form fields to try and gather info from the database. To minimize or prevent SQL attacks we can escaping all user supplied Input, enforce least privileges methods, and use white list input validation.   
+- **Cross-site request forgery (CSRF)**: it's also called *one click attack*, this type of attack occur when authenticated user trigger a state-changing requests unwanted by the user aiming to steal his info. There are many ways to prevent this type of attacks like  Synchronizer token pattern and the use of cookies "set cookie containing a random token that remains the same for the whole user session". 
 
 
 5.	*Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns the result in JSON. You should include a brief explanation of your code.*
@@ -69,5 +69,5 @@ if __name__ == '__main__':
 
 
 6.	*If you were to start your full-stack developer position today, what would be your goals a year from now?*
-- For the next year from now, I am looking forward to learn django, explore more and polishing my skills in javascript and Angular.js.
+- For the next year from now, I am looking forward to learn Django, explore more and polishing my skills in JavaScript  and Angular.js.
 
